@@ -45,7 +45,7 @@ renderTable(contacts) {
   render() {
     let contents = this.state.loading
       ? <p><em>Loading...</em></p>
-      : this.renderTable(this.state.forecasts);
+      : this.renderTable(this.state.contacts);
 
     return (
       <div>
